@@ -1,17 +1,24 @@
 body {
-  background-color: rgb(185, 243, 224);
+  background-color: #0097b2;
 }
 
 .title-principal{
-  background-color: white;
+  background-color: #0097b2;
+  color: white;
   align-items: center;
   height: 50px;
   display: flex;
   border-radius: 8px;
 }
 
+  .logo-menu {
+    height: 80%; /* Ajusta el tamaño del logo */
+    width: auto;
+    border-radius: 8px;
+}
+
 .navbar {
-  background-color: rgb(185, 243, 224); /* Color de fondo */
+  background-color: #0097b2; /* Color de fondo */
   position: fixed; /* Fija la barra en la parte superior */
   top: 0; /* La mantiene en la parte superior */
   left: 0; /* Asegura que empiece desde el borde izquierdo */
@@ -126,7 +133,7 @@ body {
   padding: 0;
   margin: 0;
   border-radius: 10px;
-  background: rgb(142, 235, 205);
+  background: #0097b2;
   display: flex;
 }
 
@@ -150,7 +157,7 @@ body {
 }
 
 .menu > li > a:hover {
-  background: rgb(109, 148, 135);
+  background: #5ad5eb;
   border-radius: 10px;
 }
 
@@ -160,7 +167,7 @@ body {
   position: absolute;
   top: 100%;
   left: 0;
-  background: rgb(109, 148, 135);
+  background: #5ad5eb;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -192,9 +199,10 @@ body {
 }
 
 .produ {
-  width: 200px; /* Ajusta el ancho */
-  height: 150px; /* Mantiene la proporción */
-  border-radius: 10px; /* Bordes redondeados */
+  width: 100%; /* Ajusta el ancho */
+  height: 200px; /* Mantiene la proporción */
+  border-radius: 8px;
+  object-fit: contain; /*Ajusta imagen sin deformar*/
 }
 
 .contacto {
