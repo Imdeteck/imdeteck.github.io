@@ -17,6 +17,30 @@ body {
     border-radius: 8px;
 }
 
+/*Botón de WhatsApp*/
+.whatsapp-btn {
+  position: fixed;
+  top: 50%;
+  right: 0; /* Cambia a `left: 0` si lo quieres al lado izquierdo */
+  transform: translateY(-50%);
+  background-color: #25D366;
+  color: white;
+  border-radius: 8px 0 0 8px;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 9999;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5b;
+}
+/*-----------------------------------*/
+
 .navbar {
   background-color: #0097b2; /* Color de fondo */
   position: fixed; /* Fija la barra en la parte superior */
